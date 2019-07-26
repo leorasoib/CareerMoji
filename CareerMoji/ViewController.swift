@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    let number = Int.random(in: 0 ... 4)
+   
     let emojis = ["🥭": "mango","🥶": "freezing face", "🦉": "owl","🧝‍♂️": "fantasy guy","🌝": "sun", "🧞‍♀️": "mermaid"  ]
     let emojiDictionary = ["mango": ["Congrats you will be an architect!!", "Dreams don't work unless you do!", "Girlfriend, if he don't appreciate fruit puns...You need to let that mango.","I don't know, the mango goes where the mangoes"],
                            "freezing face": ["Congrats you will be a software analyst!", "Death is more universal than life; everyone dies but not everyone lives.", "The principles of logic do not apply to food", "Oh my god I love my pumpkin"],
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
                            "mermaid": ["Congratulations you will be an astronaut!","cool stuff bro","git. off. my. porch.", "People can't use you if you're useless"] ]
     
      @IBAction func showMessage(sender: UIButton) {
-       let number = Int.random(in: 0 ... 4)
+       let number = Int.random(in: 0 ... 3)
         let selectedEmoji = sender.titleLabel?.text
         
         let emojiMessage = emojiDictionary[emojis[selectedEmoji!]!]?[number]
