@@ -18,84 +18,103 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CAREERmoji" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMC-P0-sIB">
-                                <rect key="frame" x="54" y="57" width="271" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="40"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick an emoji to discover your future career...*" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bn2-GP-Pu2">
-                                <rect key="frame" x="20" y="116" width="339" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="have in common with a KWK scholar!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9F-uv-1Ff">
+                                <rect key="frame" x="39" y="601" width="309" height="24"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" red="0.39215686274509803" green="0.73725490196078436" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*or unsolicited advice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9F-uv-1Ff">
-                                <rect key="frame" x="112" y="618" width="150" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick an emoji to discover a quality you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BeC-1m-udv">
+                                <rect key="frame" x="33" y="576" width="315" height="24"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" red="0.39215686274509803" green="0.73725490196078436" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88O-0X-NfC">
-                                <rect key="frame" x="51" y="192" width="115" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88O-0X-NfC">
+                                <rect key="frame" x="51" y="160" width="91" height="113"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="84"/>
-                                <state key="normal" title="🥶"/>
+                                <state key="normal" title="🌳"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UcY-kf-gHU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOv-Hb-TV2">
-                                <rect key="frame" x="212" y="160" width="115" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOv-Hb-TV2">
+                                <rect key="frame" x="236" y="160" width="91" height="113"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="84"/>
-                                <state key="normal" title="🧞‍♀️"/>
+                                <state key="normal" title="🌊"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BOB-MW-AR2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGb-RN-H81">
-                                <rect key="frame" x="212" y="297" width="115" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGb-RN-H81">
+                                <rect key="frame" x="236" y="297" width="91" height="113"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="84"/>
-                                <state key="normal" title="🧝‍♂️"/>
+                                <state key="normal" title="🏔"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GYc-JW-6En"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wo-N6-7kS">
-                                <rect key="frame" x="212" y="438" width="115" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wo-N6-7kS">
+                                <rect key="frame" x="236" y="438" width="91" height="113"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="84"/>
-                                <state key="normal" title="🦉"/>
+                                <state key="normal" title="🗣"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wD7-9G-Nl4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzD-pB-SL0">
-                                <rect key="frame" x="51" y="297" width="115" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzD-pB-SL0">
+                                <rect key="frame" x="51" y="297" width="91" height="113"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="84"/>
                                 <state key="normal" title="🌝"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AS3-b7-20e"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ZA-wr-P1M">
-                                <rect key="frame" x="51" y="438" width="115" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ZA-wr-P1M">
+                                <rect key="frame" x="51" y="438" width="91" height="113"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="84"/>
-                                <state key="normal" title="🥭"/>
+                                <state key="normal" title="🏃‍♀️"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3IB-7i-fN6"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KODEmoji" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMC-P0-sIB">
+                                <rect key="frame" x="28" y="68" width="318" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="84" id="BkU-xN-dfs"/>
+                                    <constraint firstAttribute="height" constant="84" id="H6e-Ew-ccR"/>
+                                    <constraint firstAttribute="width" constant="318" id="Jol-k0-5dW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="318" id="XSl-nt-H3H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="51"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.5375220775604248" green="0.91152030229568481" blue="0.89962810277938843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85882352941176465" green="0.95294117647058818" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BeC-1m-udv" secondAttribute="trailing" constant="27" id="9h0-B2-QxR"/>
+                            <constraint firstItem="3wo-N6-7kS" firstAttribute="top" secondItem="vMC-P0-sIB" secondAttribute="bottom" constant="286" id="Hgb-Zf-YZ7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VGb-RN-H81" secondAttribute="trailing" constant="48" id="KZL-MU-Tek"/>
+                            <constraint firstItem="88O-0X-NfC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="L0I-hU-Cyj"/>
+                            <constraint firstItem="V9F-uv-1Ff" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="OaN-ko-aI6"/>
+                            <constraint firstItem="BeC-1m-udv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="PJc-9V-13H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V9F-uv-1Ff" secondAttribute="trailing" constant="27" id="PxP-Vu-u7A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fOv-Hb-TV2" secondAttribute="trailing" constant="48" id="SQO-iX-J0v"/>
+                            <constraint firstItem="CzD-pB-SL0" firstAttribute="top" secondItem="88O-0X-NfC" secondAttribute="bottom" constant="24" id="Sht-ho-oF8"/>
+                            <constraint firstItem="CzD-pB-SL0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="UFo-PA-P78"/>
+                            <constraint firstItem="3ZA-wr-P1M" firstAttribute="top" secondItem="vMC-P0-sIB" secondAttribute="bottom" constant="286" id="a5V-J7-5yB"/>
+                            <constraint firstItem="3ZA-wr-P1M" firstAttribute="top" secondItem="CzD-pB-SL0" secondAttribute="bottom" constant="28" id="aUx-Sw-qWT"/>
+                            <constraint firstItem="vMC-P0-sIB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="bXY-we-SaG"/>
+                            <constraint firstItem="V9F-uv-1Ff" firstAttribute="top" secondItem="BeC-1m-udv" secondAttribute="bottom" constant="1" id="bmc-Gb-YMt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vMC-P0-sIB" secondAttribute="trailing" constant="29" id="e4J-i8-0CL"/>
+                            <constraint firstItem="3wo-N6-7kS" firstAttribute="top" secondItem="VGb-RN-H81" secondAttribute="bottom" constant="28" id="enq-QX-96r"/>
+                            <constraint firstItem="3ZA-wr-P1M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="g99-Hl-KZb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3wo-N6-7kS" secondAttribute="trailing" constant="48" id="kux-0P-rHx"/>
+                            <constraint firstItem="V9F-uv-1Ff" firstAttribute="top" secondItem="BeC-1m-udv" secondAttribute="bottom" constant="1" id="mvf-La-LJx"/>
+                            <constraint firstItem="vMC-P0-sIB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="n7F-Fd-K5l"/>
+                            <constraint firstItem="V9F-uv-1Ff" firstAttribute="top" secondItem="vMC-P0-sIB" secondAttribute="bottom" constant="449" id="tKE-nT-inE"/>
+                            <constraint firstItem="VGb-RN-H81" firstAttribute="top" secondItem="fOv-Hb-TV2" secondAttribute="bottom" constant="24" id="uU0-Ge-0Bq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
